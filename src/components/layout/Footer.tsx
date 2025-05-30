@@ -116,10 +116,10 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm">&copy; {new Date().getFullYear()} BuyNest. All rights reserved.</p>
             <div className="flex space-x-2 mt-2 md:mt-0">
-              <img src="./images/visa.png" alt="Visa" className="h-6" />
-              <img src="./images/mc.png" alt="Mastercard" className="h-6" />
-              <img src="./images/paypal.png" alt="PayPal" className="h-6" />
-              <img src="./images/apple.png" alt="Apple Pay" className="h-6" />
+              <img src="/images/visa.png" alt="Visa" className="h-6" />
+              <img src="/images/mc.png" alt="Mastercard" className="h-6" />
+              <img src="/images/paypal.png" alt="PayPal" className="h-6" />
+              <img src="/images/apple.png" alt="Apple Pay" className="h-6" />
             </div>
           </div>
         </div>
