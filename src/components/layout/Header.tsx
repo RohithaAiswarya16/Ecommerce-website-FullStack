@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-blue-900 flex items-center">
-            <img src='./images/logo.png' alt='BuyNest' width={50}/>
+            <img src='/images/logo.png' alt='BuyNest' width={50}/>
           </Link>
           
           {/* Desktop Navigation */}
