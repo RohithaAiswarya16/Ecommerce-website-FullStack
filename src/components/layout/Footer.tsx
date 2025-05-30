@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Youtube, CreditCard, Truck, Package, ShieldCheck } from 'lucide-react';
+import visa from './images/visa.png';
+import mc from './images/mc.png';
+import paypal from './images/paypal.png';
+import apple from './images/apple.png';
+
 
 export const Footer: React.FC = () => {
   return (
@@ -116,10 +121,10 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm">&copy; {new Date().getFullYear()} BuyNest. All rights reserved.</p>
             <div className="flex space-x-2 mt-2 md:mt-0">
-              <img src="/images/visa.png" alt="Visa" className="h-6" />
-              <img src="/images/mc.png" alt="Mastercard" className="h-6" />
-              <img src="/images/paypal.png" alt="PayPal" className="h-6" />
-              <img src="/images/apple.png" alt="Apple Pay" className="h-6" />
+              <img src={visa} alt="Visa" className="h-6" />
+              <img src={mc} alt="Mastercard" className="h-6" />
+              <img src={paypal} alt="PayPal" className="h-6" />
+              <img src={apple} alt="Apple Pay" className="h-6" />
             </div>
           </div>
         </div>
